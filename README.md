@@ -24,7 +24,7 @@ More detailed setup instructions will be provided soon.
 
 ### Contributing:
 
-Contributions to docXchange are welcome! Please see the CONTRIBUTING.md file for details on how to contribute.
+Contributions to docXchange are welcome! Lets create this
 
 ### License:
 
