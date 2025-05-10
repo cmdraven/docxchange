@@ -34,9 +34,6 @@ app.post('/file', async (req, res) => {
 app.get('/file/:publicId', async (req, res) => {
   try {
     const publicId = req.params.publicId;
-    // In a real application, you might want to fetch details from your own database
-    // and then construct the Cloudinary URL. For simplicity here, we'll just
-    // assume the publicId is sufficient to generate the URL.
     const url = cloudinary.url(publicId, { secure: true });
     res.json({ url });
   } catch (error) {
