@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>docXchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>docXchange</h1>
+
+    <h2>Upload File</h2>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" name="file" required>
+        <button type="submit">Upload</button>
+    </form>
+    <div id="uploadResult"></div>
+
+    <h2>Retrieve File</h2>
+    <form id="retrieveForm">
+        <label for="publicIdInput">Public ID:</label>
+        <input type="text" id="publicIdInput" required>
+        <button type="submit">Retrieve</button>
+    </form>
+    <div id="retrieveResult"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
